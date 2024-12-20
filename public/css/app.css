@@ -15070,9 +15070,15 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 .sidebar {
   background: #0066ff!important;
 }
-[class*="sidebar-light-"] .nav-sidebar > .nav-item.menu-open > .nav-link, [class*="sidebar-light-"] .nav-sidebar > .nav-item:hover > .nav-link {
-  background-color: white!important;
+.nav-sidebar > .nav-item .nav-icon {
+  color: white!important;
 }
+.nav-sidebar .nav-link p {
+  color: white!important;
+}
+/* [class*="sidebar-light-"] .nav-sidebar > .nav-item.menu-open > .nav-link, [class*="sidebar-light-"] .nav-sidebar > .nav-item:hover > .nav-link {
+  background-color: white!important;
+} */
 .sidebar .nav-link p,
 .main-sidebar .brand-text,
 .main-sidebar .logo-xs,
