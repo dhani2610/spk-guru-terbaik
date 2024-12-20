@@ -28,7 +28,7 @@ class AuthController extends Controller
         if (session("kode_user_login")) {
             return redirect("/dashboard");
         } else {
-            return view("auth.registrasi");
+            return view("auth.Registrasi");
         }
     }
 
