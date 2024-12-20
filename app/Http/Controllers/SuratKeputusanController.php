@@ -184,7 +184,7 @@ class SuratKeputusanController extends Controller
         $pdf->Cell(
             326,
             9,
-            "Tangerang, " .
+            "PONOROGO, " .
                 date("d", strtotime($sk->tanggal)) .
                 "-" .
                 getBulan(date("m", strtotime($sk->tanggal))) .
@@ -251,13 +251,13 @@ class SuratKeputusanController extends Controller
         $pdf->Cell(25);
         $pdf->SetTextColor(61, 68, 99);
         $pdf->SetFont("Times", "B", "14");
-        $pdf->Cell(0, 5, "PEMERINTAH KOTA TANGERANG", 0, 1, "C");
+        $pdf->Cell(0, 5, "PEMERINTAH KOTA PONOROGO", 0, 1, "C");
         $pdf->Cell(25);
         $pdf->Cell(0, 5, "DINAS PENDIDIKAN", 0, 1, "C");
         $pdf->Cell(25);
         $pdf->Cell(0, 5, "UPT SATUAN PENDIDIKAN", 0, 1, "C");
         $pdf->Cell(25);
-        $pdf->Cell(0, 5, "SD NEGERI JURUMUDI 1", 0, 1, "C");
+        $pdf->Cell(0, 5, "SD NEGERI KETONGGO", 0, 1, "C");
         $pdf->Cell(25);
         $pdf->SetFont("Times", "B", 9);
         // Removes bold
@@ -265,19 +265,19 @@ class SuratKeputusanController extends Controller
         $pdf->Cell(
             0,
             3,
-            "Alamat : Jl.Halim Perdana Kusuma, Kel. Jurumudi, Kec. Benda, Konta Tangerang Banten Kode Pos 15124",
+            "Jl. Ahmad Yani, No. 19, Kab. Ponorogo",
             0,
             1,
             "C"
         );
         $pdf->Cell(25);
-        $pdf->Cell(0, 3, "Email : sdnjurumudisatu@yahoo.com", 0, 1, "C");
+        $pdf->Cell(0, 3, "Email : sdketonggo@gmail.com", 0, 1, "C");
 
         $pdf->SetFont("Times", "B", "12");
         $pdf->Cell(
             0,
             5,
-            "NSS : 101280504004                                                    TANGERANG",
+            "NSS : 101280504004                                                    PONOROGO",
             0,
             0,
             "L"
@@ -333,7 +333,7 @@ class SuratKeputusanController extends Controller
         $pdf->Cell(
             326,
             9,
-            "Tangerang, " .
+            "PONOROGO, " .
                 date("d") .
                 "-" .
                 getBulan(date("m")) .
