@@ -15068,7 +15068,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
   top: 50%;
 }
 .sidebar {
-  background: #31f331!important;
+  background: #0066ff!important;
 }
 [class*="sidebar-light-"] .nav-sidebar > .nav-item.menu-open > .nav-link, [class*="sidebar-light-"] .nav-sidebar > .nav-item:hover > .nav-link {
   background-color: white!important;
