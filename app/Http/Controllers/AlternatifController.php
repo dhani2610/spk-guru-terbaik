@@ -177,7 +177,7 @@ class AlternatifController extends Controller
     //     $alternatif = Alternatif::all();
     //     $pdf = new Fpdf();
     //     $pdf->AddPage("P", "A4");
-    //     $pdf->Image("images/lambang_Kota_Tangerang.png", 11, 5, 31, 31);
+    //     $pdf->Image("images/logo-sd.png", 11, 5, 31, 31);
     //     $pdf->Cell(25);
     //     $pdf->SetTextColor(61, 68, 99);
     //     $pdf->SetFont("Times", "B", "14");
